@@ -30,7 +30,7 @@ Spark-TTS is an open-source text-to-speech system capable of generating high-qua
 2. Open the Package Manager (Window > Package Manager)
 3. Click the "+" button in the top-left corner
 4. Select "Add package from git URL..."
-5. Enter the repository URL: `https://github.com/arghyasur1991/Spark-TTS-Unity.git`
+5. Enter the repository URL: `https://github.com/genesisinteractive/Spark-TTS-Unity.git`
 6. Click "Add"
 
 ### Manual Installation
@@ -296,7 +296,7 @@ SparkTTS includes a built-in Editor tool that automatically copies the required 
 * **Create Backup**: Keep .backup copies of replaced files
 * **Dry Run**: Preview operations without copying files
 
-### Integration with [LiveTalk-Unity](https://github.com/arghyasur1991/LiveTalk-Unity)
+### Integration with [LiveTalk-Unity](https://github.com/genesisinteractive/LiveTalk-Unity)
 
 This tool can be used standalone or integrated with LiveTalk's deployment tool. When using LiveTalk, the SparkTTS models are automatically deployed through this tool's API.
 
@@ -324,11 +324,11 @@ Assets/StreamingAssets/SparkTTS/
       └── merges.txt
 ```
 
-You can obtain these models by using the `export_sparktts_onnx.py` script from the [Spark-TTS repository](https://github.com/arghyasur1991/Spark-TTS). This script converts the original PyTorch models to ONNX format for use in Unity.
+You can obtain these models by using the `export_sparktts_onnx.py` script from the [Spark-TTS repository](https://github.com/genesisinteractive/Spark-TTS). This script converts the original PyTorch models to ONNX format for use in Unity.
 
 ### Exporting Models
 
-1. Clone the Spark-TTS repository: `git clone https://github.com/arghyasur1991/Spark-TTS.git`
+1. Clone the Spark-TTS repository: `git clone https://github.com/genesisinteractive/Spark-TTS.git`
 2. Install the required dependencies
 3. Run the export script: `python export_sparktts_onnx.py`
 4. Copy the `SparkTTS` folder with exported ONNX models inside `onnx_models` to your Unity project's `Assets/Models` directory
