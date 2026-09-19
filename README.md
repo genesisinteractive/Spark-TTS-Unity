@@ -30,8 +30,10 @@ Spark-TTS is an open-source text-to-speech system capable of generating high-qua
 2. Open the Package Manager (Window > Package Manager)
 3. Click the "+" button in the top-left corner
 4. Select "Add package from git URL..."
-5. Enter the repository URL: `https://github.com/genesisinteractive/Spark-TTS-Unity.git`
+5. Enter the repository URL: `https://github.com/genesisinteractive/Spark-TTS-Unity.git#v0.1.1`
 6. Click "Add"
+
+   Drop the `#v0.1.1` suffix to track `main`.
 
 ### Manual Installation
 

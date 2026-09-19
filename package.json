@@ -1,6 +1,6 @@
 {
   "name": "com.genesis.sparktts.unity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Spark TTS Unity",
   "description": "Unity package for using Spark-TTS on-device models",
   "unity": "6000.0",
